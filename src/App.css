@@ -23,3 +23,15 @@
   height: 50%;
   border-radius: 0 0 0 50px;
 }
+
+@media screen and (max-width: 375px) {
+  .App {
+    width: 375px;
+    background-size: 50%;
+    background-position: right;
+  }
+  .bgGray {
+    width: 60px;
+    left: 50%;
+  }
+}
